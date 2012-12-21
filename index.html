@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta type="author" content="Daniel Pontes de Almeida">
+  <meta type="description" content="Calculando seu salário"> 
+	<title>Calculando seu sálario</title>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form action="">
+			<fieldset>
+			 <h2>Veja pra onde vai seu dinheiro suado.</h2>
+			 <div class="input-append input-append">
+        <span class="add-on">R$</span>   
+        <input name="valor" class="span2" id="appendedInputButton" type="text">
+        <span class="add-on">.00</span>        
+        <button id="botao" class="btn btn-primary" type="button">Enviar</button>
+      </div>
+			</fieldset>
+		</form>
+    <div class="respostas">
+      <h1>Desconto do INSS</h1>
+      <h4 id="inss">R$</h4>
+      <h1>Desconto do IR</h1>
+      <h4 id="ir">R$</h4>
+      <h1>Salário Líquido</h1>
+      <h4 id="liquido">R$</h4>
+    </div>
+      
+	</div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
